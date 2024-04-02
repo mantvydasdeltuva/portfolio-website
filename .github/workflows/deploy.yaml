@@ -25,7 +25,6 @@ jobs:
         uses: bahmutov/npm-install@v1
         with:
           working-directory: ./front-end
-          node-version: 20
 
       - name: Build project
         run: npm run build
@@ -36,7 +35,6 @@ jobs:
         with:
           name: production-files
           path: ./front-end/dist
-          node-version: 20
 
   deploy:
     name: Deploy
@@ -50,11 +48,9 @@ jobs:
         with:
           name: production-files
           path: ./dist
-          node-version: 20
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
-          node-version: 20
