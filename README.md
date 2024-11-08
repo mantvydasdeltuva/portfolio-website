@@ -1,7 +1,3 @@
-# portfolio-website
+### Personal Portfolio Website 🌐
 
-@ A 185.199.108.153
-@ A 185.199.109.153
-@ A 185.199.110.153
-@ A 185.199.111.153
-www CNAME mantvydasdeltuva.github.io.
+This repository contains my personal portfolio website. Currently in progress! 🚧 Stay tuned for updates as I build out the features and design.
